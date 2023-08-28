@@ -72,7 +72,7 @@ header {
     margin-bottom: 0;
 }
 
-.hot-deals-content .hot-deals-title span{
+.hot-deals-content .hot-deals-title span {
     color: #E55473
 }
 
@@ -83,3 +83,34 @@ header {
     margin: 20px 0;
 }
 
+/*Instagram section styles*/
+.instagram-section {
+    max-width: 630px;
+    margin: 130px auto 0;
+}
+
+.instagram-section .instagram-content {
+    text-align: center;
+}
+
+.instagram-content .instagram-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.instagram-content .instagram-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.instagram-section .instagram-library{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.instagram-library img{
+    width: 50%;
+}
