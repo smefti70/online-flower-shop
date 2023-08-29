@@ -109,7 +109,7 @@ header {
 .featured-flower-names {
     display: flex;
     justify-content: center;
-    gap: 230px;
+    gap: 215px;
 }
 
 .featured-flower-names a {
@@ -168,22 +168,26 @@ footer .footer-title span {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
+    margin-bottom: 0;
 }
 
 .instagram-content .instagram-description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
+    margin: 25px 0 40px 0;
 }
 
 .instagram-section .instagram-library {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 15px;
+    max-width: 1040px;
+    box-sizing: border-box;
 }
 
 .instagram-library img {
-    width: 50%;
+    width: 40%;
 }
 
 /* Customer review section styles */
@@ -238,10 +242,10 @@ footer .footer-title span {
 
 /*Latest deals section styles*/
 .latest-deals-section {
-    max-width: 1320px;
+    max-width: 1040px;
     box-sizing: border-box;
     text-align: center;
-    padding: 120px;
+    padding: 100px;
     margin: 130px auto 0;
     border-radius: 8px;
     background-image: url('../assets/Rectangle-9.png');
