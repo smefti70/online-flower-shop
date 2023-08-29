@@ -10,7 +10,7 @@ body {
     background: #E55473;
     border: 0;
     border-radius: 8px;
-    padding: 20px 40px;
+    padding: 15px 30px;
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
@@ -26,17 +26,17 @@ header {
     justify-content: space-around;
     align-items: center;
     gap: 100px;
-    margin: 0 100px;
+    margin: 0 5%;
 }
 
 .banner .banner-content {
-    width: 700px;
-    padding: 0 0 100px 0;
+    width: 40%;
+    padding: 0 0 80px 0;
 }
 
 .banner-content .banner-title {
     color: #272727;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 800;
     margin-bottom: 0;
 }
@@ -49,8 +49,73 @@ header {
 }
 
 .banner-content .banner-flower {
-    width: 400px;
+    width: 40%;
 }
+
+/* Featured flowers section styles  */
+.featured-flowers-section {
+    margin: 130px auto 0;
+    max-width: 1040px;
+}
+
+.featured-flowers-section .featured-flowers-content {
+    text-align: center;
+}
+
+.featured-flowers-content .featured-flowers-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.featured-flowers-content .featured-flowers-info {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 25px 0 50px 0;
+}
+
+.featured-flowers {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.featured-flowers .flower {
+    position: relative;
+    width: 500px;
+    height: 450px;
+    border-radius: 380px 380px 0 0;
+}
+
+.flower img {
+    position: absolute;
+    bottom: 0;
+}
+
+#featured-flower-1 {
+    background-color: rgba(167, 33, 98, 0.15);
+}
+
+#featured-flower-2 {
+    background-color: rgba(5, 151, 160, 0.15);
+}
+
+#featured-flower-3 {
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
+.featured-flower-names {
+    display: flex;
+    justify-content: center;
+    gap: 230px;
+}
+
+.featured-flower-names a {
+    color: #272727;
+}
+
 
 /*Hot deals section styles*/
 .hot-deals-section {
@@ -72,7 +137,7 @@ header {
 
 .hot-deals-content .hot-deals-title {
     color: #272727;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 800;
     margin-bottom: 0;
 }
@@ -152,7 +217,7 @@ footer .footer-title span {
     font-size: 16px;
     font-weight: 400;
     width: 500px;
-    padding: 22px;
+    padding: 17px;
     border: 0;
     outline: 0;
     border-radius: 8px;
@@ -166,7 +231,6 @@ footer .footer-title span {
 /*Footer section styles*/
 footer {
     background-color: #111010;
-    box-sizing: border-box;
     text-align: center;
     padding: 120px;
     margin: 130px auto 0;
