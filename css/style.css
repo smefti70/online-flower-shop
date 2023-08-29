@@ -186,6 +186,56 @@ footer .footer-title span {
     width: 50%;
 }
 
+/* Customer review section styles */
+.review-section{
+    max-width: 1040px;
+    margin: 130px auto 0;
+}
+
+.review-content {
+    text-align: center;
+}
+
+.review-content .review-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.review-title span{
+    color: #E55473;
+}
+
+.reviews{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.review{
+    padding: 15px;
+    text-align: center;
+    box-sizing: border-box;
+    width: 400px;
+    height: 300px;
+    border-radius: 8px;
+    background-color: #FEF9A7;
+}
+
+.review .title{
+    font-size: 22px;
+}
+
+.review .star-section{
+    color: gold;
+}
+
+.review .review-description{
+    margin-top: 50px;
+    color:#272727;
+}
+
 /*Latest deals section styles*/
 .latest-deals-section {
     max-width: 1320px;
